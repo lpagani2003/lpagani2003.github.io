@@ -10,16 +10,23 @@
     body {
         background-color: rgb(19, 25, 31);
         overflow-x: hidden;
-        font-family: 'pirulen';
+        font-family: 'pirulenregular';
+        src: url('pirulen_rg-webfont.woff2') format('woff2'),
+            url('pirulen_rg-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
     }
 
     #s0 {
         width: 110vw;
         height: 15vh;
         background-color: rgba(184, 184, 184, 0.583);
-        src: url(/CSS/pirulen\ rg.otf);
         text-align: center;
-        font-family: 'Pirulen';
+        font-family: 'pirulenregular';
+        src: url('pirulen_rg-webfont.woff2') format('woff2'),
+            url('pirulen_rg-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
         margin: auto;
         padding: 0;
     }
@@ -50,7 +57,11 @@
         height: 8vh;
 
         text-align: center;
-        font-family: 'Pirulen';
+        font-family: 'pirulenregular';
+        src: url('pirulen_rg-webfont.woff2') format('woff2'),
+            url('pirulen_rg-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
         padding: 0;
         border-bottom: 1vh solid rgb(194, 127, 2);
     }
@@ -96,7 +107,11 @@
     }
 
     .grid-item>h2 {
-        font-family: 'pirulen';
+        font-family: 'pirulenregular';
+        src: url('pirulen_rg-webfont.woff2') format('woff2'),
+            url('pirulen_rg-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
         position: relative;
         top: 5%;
         font-size: 5vh;
@@ -104,7 +119,11 @@
     }
 
     .grid-item>a {
-        font-family: 'pirulen';
+        font-family: 'pirulenregular';
+        src: url('pirulen_rg-webfont.woff2') format('woff2'),
+            url('pirulen_rg-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
         position: relative;
         top: 75%;
         font-size: 2.5vh;
@@ -136,16 +155,23 @@
     body {
         background-color: rgb(19, 25, 31);
         overflow-x: hidden;
-        font-family: 'pirulen';
+        font-family: 'pirulenregular';
+        src: url('pirulen_rg-webfont.woff2') format('woff2'),
+            url('pirulen_rg-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
     }
 
     #s0 {
         width: 110vw;
         height: 15vh;
         background-color: rgba(184, 184, 184, 0.583);
-        src: url(/CSS/pirulen\ rg.otf);
         text-align: center;
-        font-family: 'Pirulen';
+        font-family: 'pirulenregular';
+        src: url('pirulen_rg-webfont.woff2') format('woff2'),
+            url('pirulen_rg-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
         margin: auto;
         padding: 0;
     }
@@ -176,7 +202,11 @@
         height: 8vh;
 
         text-align: center;
-        font-family: 'Pirulen';
+        font-family: 'pirulenregular';
+        src: url('pirulen_rg-webfont.woff2') format('woff2'),
+            url('pirulen_rg-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
         padding: 0;
         border-bottom: 1vh solid rgb(194, 127, 2);
     }
@@ -223,7 +253,11 @@
     }
 
     .grid-item>h2 {
-        font-family: 'pirulen';
+        font-family: 'pirulenregular';
+        src: url('pirulen_rg-webfont.woff2') format('woff2'),
+            url('pirulen_rg-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
         position: relative;
         top: 5%;
         font-size: 5vh;
@@ -231,7 +265,11 @@
     }
 
     .grid-item>a {
-        font-family: 'pirulen';
+        font-family: 'pirulenregular';
+        src: url('pirulen_rg-webfont.woff2') format('woff2'),
+            url('pirulen_rg-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
         position: relative;
         top: 75%;
         font-size: 2.5vh;
@@ -263,16 +301,23 @@
     body {
         background-color: rgb(19, 25, 31);
         overflow-x: hidden;
-        font-family: 'pirulen';
+        font-family: 'pirulenregular';
+        src: url('pirulen_rg-webfont.woff2') format('woff2'),
+            url('pirulen_rg-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
     }
 
     #s0 {
         width: 110vw;
         height: 20vh;
         background-color: rgba(184, 184, 184, 0.583);
-        src: url(/CSS/pirulen\ rg.otf);
         text-align: center;
-        font-family: 'Pirulen';
+        font-family: 'pirulenregular';
+        src: url('pirulen_rg-webfont.woff2') format('woff2'),
+            url('pirulen_rg-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
         margin: auto;
         padding: 0;
     }
@@ -303,7 +348,11 @@
         height: 8vh;
 
         text-align: center;
-        font-family: 'Pirulen';
+        font-family: 'pirulenregular';
+        src: url('pirulen_rg-webfont.woff2') format('woff2'),
+            url('pirulen_rg-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
         padding: 0;
         border-bottom: 1vh solid rgb(194, 127, 2);
     }
@@ -351,7 +400,11 @@
     }
 
     .grid-item>h2 {
-        font-family: 'pirulen';
+        font-family: 'pirulenregular';
+        src: url('pirulen_rg-webfont.woff2') format('woff2'),
+            url('pirulen_rg-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
         position: relative;
         font-size: 5vh;
         color: black;
@@ -359,7 +412,11 @@
     }
 
     .grid-item>a {
-        font-family: 'pirulen';
+        font-family: 'pirulenregular';
+        src: url('pirulen_rg-webfont.woff2') format('woff2'),
+            url('pirulen_rg-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
         position: relative;
         top: 50%;
         font-size: 2.5vh;
@@ -368,7 +425,7 @@
     }
 
     #bar {
-    display: none;
+        display: none;
     }
 
     .item2 {
@@ -394,7 +451,8 @@
     a:visited {
         text-decoration: none;
     }
-    #left{
+
+    #left {
         text-align: left;
     }
 }

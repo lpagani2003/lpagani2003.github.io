@@ -8,7 +8,11 @@
     body {
         background-image: url(/images/src/Texture-Formato-1920x4000-2.png);
         overflow-x: hidden;
-        font-family: 'pirulen';
+        font-family: 'pirulenregular';
+        src: url('pirulen_rg-webfont.woff2') format('woff2'),
+            url('pirulen_rg-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
 
     }
 
@@ -27,7 +31,11 @@
         padding: 5px;
         color: black;
         background-color: white;
-        font-family: 'pirulen';
+        font-family: 'pirulenregular';
+        src: url('pirulen_rg-webfont.woff2') format('woff2'),
+            url('pirulen_rg-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
         font-weight: 2vw;
     }
 
@@ -128,7 +136,11 @@
 
         transition-duration: 0.4s;
         cursor: pointer;
-        font-family: 'pirulen';
+        font-family: 'pirulenregular';
+        src: url('pirulen_rg-webfont.woff2') format('woff2'),
+            url('pirulen_rg-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
     }
 
     button a {
@@ -142,7 +154,11 @@
         position: absolute;
         top: 35%;
         left: 10%;
-        font-family: 'pirulen';
+        font-family: 'pirulenregular';
+        src: url('pirulen_rg-webfont.woff2') format('woff2'),
+            url('pirulen_rg-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
         border-radius: 25px;
         -webkit-border-radius: 25px;
         -moz-border-radius: 25px;
@@ -206,7 +222,11 @@
         font-size: 16px;
         transition-duration: 0.4s;
         cursor: pointer;
-        font-family: 'pirulen';
+        font-family: 'pirulenregular';
+        src: url('pirulen_rg-webfont.woff2') format('woff2'),
+            url('pirulen_rg-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
     }
 
 }
@@ -215,7 +235,11 @@
     body {
         background-image: url(/images/src/Texture-Formato-1920x4000-2.png);
         overflow-x: hidden;
-        font-family: 'pirulen';
+        font-family: 'pirulenregular';
+        src: url('pirulen_rg-webfont.woff2') format('woff2'),
+            url('pirulen_rg-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
 
     }
 
@@ -233,7 +257,11 @@
         padding: 5px;
         color: black;
         background-color: white;
-        font-family: 'pirulen';
+        font-family: 'pirulenregular';
+        src: url('pirulen_rg-webfont.woff2') format('woff2'),
+            url('pirulen_rg-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
         font-weight: 2vw;
     }
 
@@ -332,7 +360,11 @@
 
         transition-duration: 0.4s;
         cursor: pointer;
-        font-family: 'pirulen';
+        font-family: 'pirulenregular';
+        src: url('pirulen_rg-webfont.woff2') format('woff2'),
+            url('pirulen_rg-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
     }
 
     button a {
@@ -347,7 +379,11 @@
         position: absolute;
         top: 20%;
         left: 5%;
-        font-family: 'pirulen';
+        font-family: 'pirulenregular';
+        src: url('pirulen_rg-webfont.woff2') format('woff2'),
+            url('pirulen_rg-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
         border-radius: 25px;
         -webkit-border-radius: 25px;
         -moz-border-radius: 25px;
@@ -411,7 +447,11 @@
         font-size: 16px;
         transition-duration: 0.4s;
         cursor: pointer;
-        font-family: 'pirulen';
+        font-family: 'pirulenregular';
+        src: url('pirulen_rg-webfont.woff2') format('woff2'),
+            url('pirulen_rg-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
     }
 
 }

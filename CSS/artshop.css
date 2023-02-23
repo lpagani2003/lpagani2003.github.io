@@ -17,7 +17,11 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: 'pirulen';
+        font-family: 'pirulenregular';
+        src: url('pirulen_rg-webfont.woff2') format('woff2'),
+            url('pirulen_rg-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
         font-size: 120%;
     }
 
@@ -43,7 +47,11 @@
     }
 
     .grid-item {
-        font-family: 'pirulen';
+        font-family: 'pirulenregular';
+        src: url('pirulen_rg-webfont.woff2') format('woff2'),
+            url('pirulen_rg-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
     }
 
     #info {
@@ -63,7 +71,11 @@
         margin: 4px 2px;
         transition-duration: 0.4s;
         cursor: pointer;
-        font-family: 'pirulen';
+        font-family: 'pirulenregular';
+        src: url('pirulen_rg-webfont.woff2') format('woff2'),
+            url('pirulen_rg-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
         border-radius: 55px;
         -webkit-border-radius: 55px;
         -moz-border-radius: 55px;
@@ -71,6 +83,7 @@
         -o-border-radius: 55px;
     }
 }
+
 @media only screen and (max-width: 759px) {
     body {
         background-image: url(/images/src/Texture-Formato-1920x4000-2.png);
@@ -84,7 +97,11 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: 'pirulen';
+        font-family: 'pirulenregular';
+        src: url('pirulen_rg-webfont.woff2') format('woff2'),
+            url('pirulen_rg-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
         font-size: 120%;
     }
 
@@ -110,7 +127,11 @@
     }
 
     .grid-item {
-        font-family: 'pirulen';
+        font-family: 'pirulenregular';
+        src: url('pirulen_rg-webfont.woff2') format('woff2'),
+            url('pirulen_rg-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
         height: 50vh;
     }
 
@@ -132,7 +153,11 @@
         margin: 4px 2px;
         transition-duration: 0.4s;
         cursor: pointer;
-        font-family: 'pirulen';
+        font-family: 'pirulenregular';
+        src: url('pirulen_rg-webfont.woff2') format('woff2'),
+            url('pirulen_rg-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
         border-radius: 55px;
         -webkit-border-radius: 55px;
         -moz-border-radius: 55px;

@@ -119,7 +119,11 @@
     position: absolute;
     bottom: 8%;
     padding-left: 10px;
-    font-family: 'pirulen';
+    font-family: 'pirulenregular';
+    src: url('pirulen_rg-webfont.woff2') format('woff2'),
+         url('pirulen_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
     font-size: 0.75vw;
   }
 
@@ -133,12 +137,20 @@
 
   #ptotal {
     padding-left: 10px;
-    font-family: 'pirulen';
+    font-family: 'pirulenregular';
+    src: url('pirulen_rg-webfont.woff2') format('woff2'),
+         url('pirulen_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
   }
 
   #precioTotal {
     position: relative;
-    font-family: 'pirulen';
+    font-family: 'pirulenregular';
+    src: url('pirulen_rg-webfont.woff2') format('woff2'),
+         url('pirulen_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
     top: -30%;
     left: 65%;
   }
@@ -159,7 +171,11 @@
     background-color: black;
     color: white;
     width: 110%;
-    font-family: 'pirulen';
+    font-family: 'pirulenregular';
+    src: url('pirulen_rg-webfont.woff2') format('woff2'),
+         url('pirulen_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
   }
 
@@ -176,7 +192,11 @@
   .producto {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    font-family: 'pirulen';
+    font-family: 'pirulenregular';
+    src: url('pirulen_rg-webfont.woff2') format('woff2'),
+         url('pirulen_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
     font-size: 0.7vw;
     width: 100%;
   }
@@ -201,7 +221,11 @@
   }
 
   .numeros {
-    font-family: 'pirulen';
+    font-family: 'pirulenregular';
+    src: url('pirulen_rg-webfont.woff2') format('woff2'),
+         url('pirulen_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
     font-size: 0.8vw;
     margin: 0 auto;
     padding-left: 25px;
@@ -226,7 +250,11 @@
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
-    font-family: 'pirulen';
+    font-family: 'pirulenregular';
+    src: url('pirulen_rg-webfont.woff2') format('woff2'),
+         url('pirulen_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
     position: relative;
     background-color: white;
     color: black;
@@ -240,7 +268,11 @@
 
   .no-hay-nada {
     font-size: 2vw;
-    font-family: 'pirulen';
+    font-family: 'pirulenregular';
+    src: url('pirulen_rg-webfont.woff2') format('woff2'),
+         url('pirulen_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
     margin: auto;
     padding-left: 15px;
   }
@@ -367,7 +399,11 @@
     position: absolute;
     bottom: 8%;
     padding-left: 10px;
-    font-family: 'pirulen';
+    font-family: 'pirulenregular';
+    src: url('pirulen_rg-webfont.woff2') format('woff2'),
+         url('pirulen_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
     font-size: 0.75vw;
   }
 
@@ -381,12 +417,20 @@
 
   #ptotal {
     padding-left: 10px;
-    font-family: 'pirulen';
+    font-family: 'pirulenregular';
+    src: url('pirulen_rg-webfont.woff2') format('woff2'),
+         url('pirulen_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
   }
 
   #precioTotal {
     position: relative;
-    font-family: 'pirulen';
+    font-family: 'pirulenregular';
+    src: url('pirulen_rg-webfont.woff2') format('woff2'),
+         url('pirulen_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
     top: -30%;
     left: 65%;
   }
@@ -407,7 +451,11 @@
     background-color: black;
     color: white;
     width: 110%;
-    font-family: 'pirulen';
+    font-family: 'pirulenregular';
+    src: url('pirulen_rg-webfont.woff2') format('woff2'),
+         url('pirulen_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
   }
 
   #first-row th {
@@ -422,7 +470,11 @@
   .producto {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    font-family: 'pirulen';
+    font-family: 'pirulenregular';
+    src: url('pirulen_rg-webfont.woff2') format('woff2'),
+         url('pirulen_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
     width: 30vw;
     border-bottom: 2px solid black;
     padding-top: 10px;
@@ -452,7 +504,11 @@
   }
 
   .numeros {
-    font-family: 'pirulen';
+    font-family: 'pirulenregular';
+    src: url('pirulen_rg-webfont.woff2') format('woff2'),
+         url('pirulen_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
     font-size: 1.5vw;
     margin: 0 auto;
     padding-left: 25px;
@@ -477,7 +533,11 @@
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
-    font-family: 'pirulen';
+    font-family: 'pirulenregular';
+    src: url('pirulen_rg-webfont.woff2') format('woff2'),
+         url('pirulen_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
     position: relative;
     background-color: white;
     color: black;
@@ -491,7 +551,11 @@
 
   .no-hay-nada {
     font-size: 2vw;
-    font-family: 'pirulen';
+    font-family: 'pirulenregular';
+    src: url('pirulen_rg-webfont.woff2') format('woff2'),
+         url('pirulen_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
     margin: auto;
     padding-left: 15px;
   }
@@ -620,7 +684,11 @@
     position: absolute;
     bottom: 50%;
     padding-left: 10px;
-    font-family: 'pirulen';
+    font-family: 'pirulenregular';
+    src: url('pirulen_rg-webfont.woff2') format('woff2'),
+         url('pirulen_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
     font-size: 0.75vw;
     display: none;
   }
@@ -635,12 +703,20 @@
 
   #ptotal {
     padding-left: 10px;
-    font-family: 'pirulen';
+    font-family: 'pirulenregular';
+    src: url('pirulen_rg-webfont.woff2') format('woff2'),
+         url('pirulen_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
   }
 
   #precioTotal {
     position: relative;
-    font-family: 'pirulen';
+    font-family: 'pirulenregular';
+    src: url('pirulen_rg-webfont.woff2') format('woff2'),
+         url('pirulen_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
     top: -3vh;
     left: 65%;
   }
@@ -662,7 +738,11 @@
     background-color: black;
     color: white;
     width: 110vw;
-    font-family: 'pirulen';
+    font-family: 'pirulenregular';
+    src: url('pirulen_rg-webfont.woff2') format('woff2'),
+         url('pirulen_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
   }
 
   #first-row th {
@@ -677,7 +757,11 @@
   .producto {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    font-family: 'pirulen';
+    font-family: 'pirulenregular';
+    src: url('pirulen_rg-webfont.woff2') format('woff2'),
+         url('pirulen_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
     width: 50vw;
     border-bottom: 2px solid black;
     padding-top: 10px;
@@ -707,7 +791,11 @@
   }
 
   .numeros {
-    font-family: 'pirulen';
+    font-family: 'pirulenregular';
+    src: url('pirulen_rg-webfont.woff2') format('woff2'),
+         url('pirulen_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
     margin: 0 auto;
     padding-left: 25px;
     font-size: 3vw;
@@ -732,7 +820,11 @@
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
-    font-family: 'pirulen';
+    font-family: 'pirulenregular';
+    src: url('pirulen_rg-webfont.woff2') format('woff2'),
+         url('pirulen_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
     position: relative;
     background-color: white;
     color: black;
@@ -745,7 +837,11 @@
   }
   .no-hay-nada {
     font-size: 3vh;
-    font-family: 'pirulen';
+    font-family: 'pirulenregular';
+    src: url('pirulen_rg-webfont.woff2') format('woff2'),
+         url('pirulen_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
     margin: auto;
     padding-left: 15px;
   }

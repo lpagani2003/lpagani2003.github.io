@@ -132,8 +132,11 @@
   #menu li {
     padding: 10px 0;
     font-size: 1.5vw;
-    font-family: 'Pirulen';
-    src: url(/CSS/pirulen\ rg.otf);
+    font-family: 'pirulenregular';
+    src: url('pirulen_rg-webfont.woff2') format('woff2'),
+         url('pirulen_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
   }
 
   /*
@@ -154,7 +157,11 @@
   }
 
   #end>h6 {
-    font-family: 'pirulen';
+    font-family: 'pirulenregular';
+    src: url('pirulen_rg-webfont.woff2') format('woff2'),
+         url('pirulen_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
     font-size: 1vw;
     padding-top: 10px;
     grid-column: 1/3;
@@ -305,8 +312,11 @@
   #menu li {
     padding: 10px 0;
     font-size: 2.5vw;
-    font-family: 'Pirulen';
-    src: url(/CSS/pirulen\ rg.otf);
+    font-family: 'pirulenregular';
+    src: url('pirulen_rg-webfont.woff2') format('woff2'),
+         url('pirulen_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
   }
 
   /*
@@ -327,7 +337,11 @@
   }
 
   #end>h6 {
-    font-family: 'pirulen';
+    font-family: 'pirulenregular';
+    src: url('pirulen_rg-webfont.woff2') format('woff2'),
+         url('pirulen_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
     font-size: 2vw;
     padding-top: 10px;
     grid-column: 1/3;
@@ -478,8 +492,11 @@
   #menu li {
     padding: 10px 0;
     font-size: 7.5vw;
-    font-family: 'Pirulen';
-    src: url(/CSS/pirulen\ rg.otf);
+    font-family: 'pirulenregular';
+    src: url('pirulen_rg-webfont.woff2') format('woff2'),
+         url('pirulen_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
   }
 
   /*
@@ -500,7 +517,11 @@
   }
 
   #end>h6 {
-    font-family: 'pirulen';
+    font-family: 'pirulenregular';
+    src: url('pirulen_rg-webfont.woff2') format('woff2'),
+         url('pirulen_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
     font-size: 5vw;
     padding-top: 10px;
     grid-column: 1/3;

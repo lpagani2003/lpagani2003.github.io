@@ -8,7 +8,11 @@
     body {
         background-color: rgb(19, 25, 31);
         overflow-x: hidden;
-        font-family: 'pirulen';
+        font-family: 'pirulenregular';
+        src: url('pirulen_rg-webfont.woff2') format('woff2'),
+            url('pirulen_rg-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
     }
 
     .slideshow-container1 {
@@ -38,18 +42,20 @@
     .contentdiv h2 {
         color: #ff0000;
     }
-    #s0b{
+
+    #s0b {
         background-color: grey;
         width: 100vw;
         height: 10vh;
         text-align: center;
     }
-    #s0b h3{
+
+    #s0b h3 {
         margin: auto;
         padding: 25px;
         font-size: 2vw;
     }
-    
+
 
     #s2 {
         width: 100vw;
@@ -62,7 +68,11 @@
         top: -8vh;
         left: -0.5vw;
         font-size: 3vw;
-        font-family: 'pirulen';
+        font-family: 'pirulenregular';
+        src: url('pirulen_rg-webfont.woff2') format('woff2'),
+            url('pirulen_rg-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
         text-align: center;
     }
 
@@ -84,7 +94,11 @@
         margin: 4px 2px;
         transition-duration: 0.4s;
         cursor: pointer;
-        font-family: 'pirulen';
+        font-family: 'pirulenregular';
+        src: url('pirulen_rg-webfont.woff2') format('woff2'),
+            url('pirulen_rg-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
     }
 
     .s2a {
@@ -143,7 +157,11 @@
         margin: 4px 2px;
         transition-duration: 0.4s;
         cursor: pointer;
-        font-family: 'pirulen';
+        font-family: 'pirulenregular';
+        src: url('pirulen_rg-webfont.woff2') format('woff2'),
+            url('pirulen_rg-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
     }
 
     #s3 {
@@ -175,7 +193,11 @@
         margin: 4px 2px;
         transition-duration: 0.4s;
         cursor: pointer;
-        font-family: 'pirulen';
+        font-family: 'pirulenregular';
+        src: url('pirulen_rg-webfont.woff2') format('woff2'),
+            url('pirulen_rg-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
     }
 
     #tarjetas table {
@@ -223,11 +245,16 @@
         margin-top: 45px;
     }
 }
+
 @media only screen and (max-width: 1439px) {
     body {
         background-color: rgb(19, 25, 31);
         overflow-x: hidden;
-        font-family: 'pirulen';
+        font-family: 'pirulenregular';
+        src: url('pirulen_rg-webfont.woff2') format('woff2'),
+            url('pirulen_rg-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
     }
 
     .slideshow-container1 {
@@ -235,7 +262,7 @@
         height: 50vw;
         position: relative;
         margin: auto;
-        
+
     }
 
     .contentdiv img {
@@ -245,7 +272,9 @@
 
     }
 
-    .contentdiv h3,h2,h1 {
+    .contentdiv h3,
+    h2,
+    h1 {
         position: relative;
         top: -40vh;
         left: 5%;
@@ -254,18 +283,20 @@
     .contentdiv h2 {
         color: #ff0000;
     }
-    #s0b{
+
+    #s0b {
         background-color: grey;
         width: 100vw;
         text-align: center;
     }
-    #s0b h3{
+
+    #s0b h3 {
         margin: auto;
         padding: 25px;
         font-size: 4vw;
     }
-    
-    
+
+
     #s2 {
         width: 100vw;
         height: 60vh;
@@ -277,7 +308,11 @@
         top: -5vh;
         left: -0.5vw;
         font-size: 2vw;
-        font-family: 'pirulen';
+        font-family: 'pirulenregular';
+        src: url('pirulen_rg-webfont.woff2') format('woff2'),
+            url('pirulen_rg-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
         text-align: center;
     }
 
@@ -299,7 +334,11 @@
         margin: 4px 2px;
         transition-duration: 0.4s;
         cursor: pointer;
-        font-family: 'pirulen';
+        font-family: 'pirulenregular';
+        src: url('pirulen_rg-webfont.woff2') format('woff2'),
+            url('pirulen_rg-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
     }
 
     .s2a {
@@ -315,12 +354,14 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-    .imgcont{
+
+    .imgcont {
         display: flex;
         align-items: center;
         justify-content: center;
         width: 100%;
     }
+
     .container img {
         width: 50vw;
         margin-right: 32px;
@@ -371,7 +412,11 @@
         margin: 4px 2px;
         transition-duration: 0.4s;
         cursor: pointer;
-        font-family: 'pirulen';
+        font-family: 'pirulenregular';
+        src: url('pirulen_rg-webfont.woff2') format('woff2'),
+            url('pirulen_rg-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
     }
 
     #s3 {
@@ -403,7 +448,11 @@
         margin: 4px 2px;
         transition-duration: 0.4s;
         cursor: pointer;
-        font-family: 'pirulen';
+        font-family: 'pirulenregular';
+        src: url('pirulen_rg-webfont.woff2') format('woff2'),
+            url('pirulen_rg-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
     }
 
     #tarjetas table {
@@ -451,20 +500,27 @@
         margin-top: 45px;
     }
 }
+
 @media only screen and (max-width: 760px) {
     body {
         background-color: rgb(19, 25, 31);
         overflow-x: hidden;
-        font-family: 'pirulen';
-        
+        font-family: 'pirulenregular';
+        src: url('pirulen_rg-webfont.woff2') format('woff2'),
+            url('pirulen_rg-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+
     }
-    #gire{
+
+    #gire {
         color: white;
         text-align: center;
     }
+
     .hide {
         display: none !important;
-      }
-      
-   
+    }
+
+
 }
