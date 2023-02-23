@@ -88,7 +88,7 @@ function guardar2() {
         estado: 0,
         anotaciones: ""
     }
-    let url = "http://lpagani2003.pythonanywhere.com/postulantes"
+    let url = "https://lpagani2003.pythonanywhere.com/postulantes"
     var options = {
         body: JSON.stringify(postulantes),
         method: 'POST',
