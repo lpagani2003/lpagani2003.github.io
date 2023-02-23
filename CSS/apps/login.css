@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+@font-face {
+    font-family: 'pirulenregular';
+    src: url(/CSS/recursos/pirulen_rg-webfont.woff);
+}
 body {
     background-color: rgb(19, 25, 31);
     overflow-x: hidden;
@@ -13,10 +16,6 @@ body {
     margin: auto;
     background-color: rgb(255, 255, 255);
     font-family: 'pirulenregular';
-    src: url('pirulen_rg-webfont.woff2') format('woff2'),
-         url('pirulen_rg-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
     width: 50%;
     height: 50vh;
     display: grid;
@@ -50,10 +49,6 @@ label {
     transition-duration: 0.4s;
     cursor: pointer;
     font-family: 'pirulenregular';
-    src: url('pirulen_rg-webfont.woff2') format('woff2'),
-         url('pirulen_rg-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 }
 
 #login-form-submit:hover {
@@ -69,10 +64,6 @@ label {
     transition-duration: 0.4s;
     cursor: pointer;
     font-family: 'pirulenregular';
-    src: url('pirulen_rg-webfont.woff2') format('woff2'),
-         url('pirulen_rg-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 }
 #button {
     background-color: #ff0000;
@@ -87,10 +78,6 @@ label {
     transition-duration: 0.4s;
     cursor: pointer;
     font-family: 'pirulenregular';
-    src: url('pirulen_rg-webfont.woff2') format('woff2'),
-         url('pirulen_rg-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 }
 
 #button:hover {
@@ -106,8 +93,4 @@ label {
     transition-duration: 0.4s;
     cursor: pointer;
     font-family: 'pirulenregular';
-    src: url('pirulen_rg-webfont.woff2') format('woff2'),
-         url('pirulen_rg-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 }

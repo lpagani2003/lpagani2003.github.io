@@ -5,6 +5,11 @@
 
 }
 
+@font-face {
+    font-family: 'pirulenregular';
+    src: url(/CSS/recursos/pirulen_rg-webfont.woff);
+}
+
 @media only screen and (min-width: 1440px) {
     #gire {
         display: none;
@@ -14,10 +19,6 @@
         background-color: rgb(19, 25, 31);
         overflow-x: hidden;
         font-family: 'pirulenregular';
-        src: url('pirulen_rg-webfont.woff2') format('woff2'),
-            url('pirulen_rg-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
     }
 
     #s1 {
@@ -109,10 +110,6 @@
         transition-duration: 0.4s;
         cursor: pointer;
         font-family: 'pirulenregular';
-        src: url('pirulen_rg-webfont.woff2') format('woff2'),
-            url('pirulen_rg-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
         width: 100%;
         height: 100%;
 
@@ -130,10 +127,6 @@
         transition-duration: 0.4s;
         cursor: pointer;
         font-family: 'pirulenregular';
-        src: url('pirulen_rg-webfont.woff2') format('woff2'),
-            url('pirulen_rg-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
     }
 
     #s4 {
@@ -186,10 +179,6 @@
         transition-duration: 0.4s;
         cursor: pointer;
         font-family: 'pirulenregular';
-        src: url('pirulen_rg-webfont.woff2') format('woff2'),
-            url('pirulen_rg-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
     }
 
     #btn1:hover {
@@ -204,10 +193,6 @@
         transition-duration: 0.4s;
         cursor: pointer;
         font-family: 'pirulenregular';
-        src: url('pirulen_rg-webfont.woff2') format('woff2'),
-            url('pirulen_rg-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
     }
 
     .clasif {
@@ -257,10 +242,6 @@
         display: inline-block;
         cursor: pointer;
         font-family: 'pirulenregular';
-        src: url('pirulen_rg-webfont.woff2') format('woff2'),
-            url('pirulen_rg-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
     }
 
     .clasif-info h1,
@@ -307,10 +288,6 @@
         display: inline-block;
         cursor: pointer;
         font-family: 'pirulenregular';
-        src: url('pirulen_rg-webfont.woff2') format('woff2'),
-            url('pirulen_rg-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
     }
 
     #s6 {
@@ -363,10 +340,6 @@
         background-color: rgb(19, 25, 31);
         overflow-x: hidden;
         font-family: 'pirulenregular';
-        src: url('pirulen_rg-webfont.woff2') format('woff2'),
-            url('pirulen_rg-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
     }
 
     #s1 {
@@ -465,10 +438,6 @@
         transition-duration: 0.4s;
         cursor: pointer;
         font-family: 'pirulenregular';
-        src: url('pirulen_rg-webfont.woff2') format('woff2'),
-            url('pirulen_rg-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
         width: 100%;
         height: 100%;
 
@@ -486,10 +455,6 @@
         transition-duration: 0.4s;
         cursor: pointer;
         font-family: 'pirulenregular';
-        src: url('pirulen_rg-webfont.woff2') format('woff2'),
-            url('pirulen_rg-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
     }
 
     #s4 {
@@ -542,10 +507,6 @@
         transition-duration: 0.4s;
         cursor: pointer;
         font-family: 'pirulenregular';
-        src: url('pirulen_rg-webfont.woff2') format('woff2'),
-            url('pirulen_rg-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
     }
 
     #btn1:hover {
@@ -560,10 +521,6 @@
         transition-duration: 0.4s;
         cursor: pointer;
         font-family: 'pirulenregular';
-        src: url('pirulen_rg-webfont.woff2') format('woff2'),
-            url('pirulen_rg-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
     }
 
     .clasif {
@@ -613,10 +570,6 @@
         display: inline-block;
         cursor: pointer;
         font-family: 'pirulenregular';
-        src: url('pirulen_rg-webfont.woff2') format('woff2'),
-            url('pirulen_rg-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
     }
 
     .clasif-info h1,
@@ -663,10 +616,6 @@
         display: inline-block;
         cursor: pointer;
         font-family: 'pirulenregular';
-        src: url('pirulen_rg-webfont.woff2') format('woff2'),
-            url('pirulen_rg-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
     }
 
     #s6 {
@@ -717,10 +666,6 @@
         background-color: rgb(19, 25, 31);
         overflow-x: hidden;
         font-family: 'pirulenregular';
-        src: url('pirulen_rg-webfont.woff2') format('woff2'),
-            url('pirulen_rg-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
 
     }
 

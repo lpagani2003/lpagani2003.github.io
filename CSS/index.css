@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'pirulenregular';
+    src: url(/CSS/recursos/pirulen_rg-webfont.woff);
+}
+
 @media only screen and (min-width: 1440px) {
     body {
         background-image: url(/images/src/Sin\ título-1.png);
@@ -26,10 +31,6 @@
         color: white;
         font-size: 3vw;
         font-family: 'pirulenregular';
-        src: url('pirulen_rg-webfont.woff2') format('woff2'),
-            url('pirulen_rg-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
     }
 
     #s0>h3 {
@@ -39,10 +40,6 @@
         color: white;
         font-size: 2.5vw;
         font-family: 'pirulenregular';
-        src: url('pirulen_rg-webfont.woff2') format('woff2'),
-            url('pirulen_rg-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
     }
 }
 
@@ -74,10 +71,6 @@
         color: white;
         font-size: 10vw;
         font-family: 'pirulenregular';
-        src: url('pirulen_rg-webfont.woff2') format('woff2'),
-            url('pirulen_rg-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
     }
 
     #s0>h3 {
@@ -87,10 +80,6 @@
         color: white;
         font-size: 5vw;
         font-family: 'pirulenregular';
-        src: url('pirulen_rg-webfont.woff2') format('woff2'),
-            url('pirulen_rg-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
     }
 }
 
@@ -121,10 +110,6 @@
         color: white;
         font-size: 15vw;
         font-family: 'pirulenregular';
-        src: url('pirulen_rg-webfont.woff2') format('woff2'),
-            url('pirulen_rg-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
     }
 
     #s0>h3 {
@@ -135,10 +120,6 @@
         font-size: 9vw;
         width: 100vw;
         font-family: 'pirulenregular';
-        src: url('pirulen_rg-webfont.woff2') format('woff2'),
-            url('pirulen_rg-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
     }
 
 }

@@ -4,15 +4,17 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'pirulenregular';
+    src: url(/CSS/recursos/pirulen_rg-webfont.woff);
+}
+
 @media only screen and (min-width: 1440px) {
     body {
         background-color: rgb(19, 25, 31);
         overflow-x: hidden;
         font-family: 'pirulenregular';
-        src: url('pirulen_rg-webfont.woff2') format('woff2'),
-            url('pirulen_rg-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
+
     }
 
     .slideshow-container1 {
@@ -69,10 +71,7 @@
         left: -0.5vw;
         font-size: 3vw;
         font-family: 'pirulenregular';
-        src: url('pirulen_rg-webfont.woff2') format('woff2'),
-            url('pirulen_rg-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
+
         text-align: center;
     }
 
@@ -95,10 +94,7 @@
         transition-duration: 0.4s;
         cursor: pointer;
         font-family: 'pirulenregular';
-        src: url('pirulen_rg-webfont.woff2') format('woff2'),
-            url('pirulen_rg-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
+
     }
 
     .s2a {
@@ -158,10 +154,7 @@
         transition-duration: 0.4s;
         cursor: pointer;
         font-family: 'pirulenregular';
-        src: url('pirulen_rg-webfont.woff2') format('woff2'),
-            url('pirulen_rg-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
+
     }
 
     #s3 {
@@ -194,10 +187,7 @@
         transition-duration: 0.4s;
         cursor: pointer;
         font-family: 'pirulenregular';
-        src: url('pirulen_rg-webfont.woff2') format('woff2'),
-            url('pirulen_rg-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
+
     }
 
     #tarjetas table {
@@ -251,10 +241,7 @@
         background-color: rgb(19, 25, 31);
         overflow-x: hidden;
         font-family: 'pirulenregular';
-        src: url('pirulen_rg-webfont.woff2') format('woff2'),
-            url('pirulen_rg-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
+
     }
 
     .slideshow-container1 {
@@ -309,10 +296,7 @@
         left: -0.5vw;
         font-size: 2vw;
         font-family: 'pirulenregular';
-        src: url('pirulen_rg-webfont.woff2') format('woff2'),
-            url('pirulen_rg-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
+
         text-align: center;
     }
 
@@ -335,10 +319,7 @@
         transition-duration: 0.4s;
         cursor: pointer;
         font-family: 'pirulenregular';
-        src: url('pirulen_rg-webfont.woff2') format('woff2'),
-            url('pirulen_rg-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
+
     }
 
     .s2a {
@@ -413,10 +394,7 @@
         transition-duration: 0.4s;
         cursor: pointer;
         font-family: 'pirulenregular';
-        src: url('pirulen_rg-webfont.woff2') format('woff2'),
-            url('pirulen_rg-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
+
     }
 
     #s3 {
@@ -449,10 +427,7 @@
         transition-duration: 0.4s;
         cursor: pointer;
         font-family: 'pirulenregular';
-        src: url('pirulen_rg-webfont.woff2') format('woff2'),
-            url('pirulen_rg-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
+
     }
 
     #tarjetas table {
@@ -506,10 +481,7 @@
         background-color: rgb(19, 25, 31);
         overflow-x: hidden;
         font-family: 'pirulenregular';
-        src: url('pirulen_rg-webfont.woff2') format('woff2'),
-            url('pirulen_rg-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
+
 
     }
 

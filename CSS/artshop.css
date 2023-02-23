@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'pirulenregular';
+    src: url(/CSS/recursos/pirulen_rg-webfont.woff);
+}
+
 @media only screen and (min-width: 760px) {
     body {
         background-image: url(/images/src/Texture-Formato-1920x4000-2.png);
@@ -18,11 +23,6 @@
         align-items: center;
         justify-content: center;
         font-family: 'pirulenregular';
-        src: url('pirulen_rg-webfont.woff2') format('woff2'),
-            url('pirulen_rg-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
-        font-size: 120%;
     }
 
     a {
@@ -48,10 +48,6 @@
 
     .grid-item {
         font-family: 'pirulenregular';
-        src: url('pirulen_rg-webfont.woff2') format('woff2'),
-            url('pirulen_rg-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
     }
 
     #info {
@@ -72,10 +68,6 @@
         transition-duration: 0.4s;
         cursor: pointer;
         font-family: 'pirulenregular';
-        src: url('pirulen_rg-webfont.woff2') format('woff2'),
-            url('pirulen_rg-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
         border-radius: 55px;
         -webkit-border-radius: 55px;
         -moz-border-radius: 55px;
@@ -98,11 +90,6 @@
         align-items: center;
         justify-content: center;
         font-family: 'pirulenregular';
-        src: url('pirulen_rg-webfont.woff2') format('woff2'),
-            url('pirulen_rg-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
-        font-size: 120%;
     }
 
     a {
@@ -128,10 +115,6 @@
 
     .grid-item {
         font-family: 'pirulenregular';
-        src: url('pirulen_rg-webfont.woff2') format('woff2'),
-            url('pirulen_rg-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
         height: 50vh;
     }
 
@@ -154,10 +137,6 @@
         transition-duration: 0.4s;
         cursor: pointer;
         font-family: 'pirulenregular';
-        src: url('pirulen_rg-webfont.woff2') format('woff2'),
-            url('pirulen_rg-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
         border-radius: 55px;
         -webkit-border-radius: 55px;
         -moz-border-radius: 55px;
