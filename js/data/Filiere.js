@@ -1,0 +1,16 @@
+var fotos=[
+    "/images/Filiere/Photo36_1 920-1 080.png",
+    "/images/Filiere/Photo37_1 920-1 0802.png",
+    "/images/Filiere/Photo38_1 920-1 080.png",
+    "/images/Filiere/Photo40_1 920-1 080.png",
+    "/images/Filiere/Photo48_1 920-1 080.png",
+    "/images/Filiere/Photo58_1 920-1 080.png",
+    "/images/Filiere/HiResPhoto55_1 920-1 080.png",
+    "/images/Filiere/HiResPhoto56_1 920-1 080.png",
+    "/images/Filiere/HiResPhoto57_1 920-1 080.png",
+    "/images/Filiere/HiResPhoto58_1 920-1 080.png",
+    "/images/Filiere/HiResPhoto59_1 920-1 080.png",
+    "/images/Filiere/HiResPhoto60_1 920-1 080.png",
+    "/images/Filiere/HiResPhoto61_1 920-1 080.png",
+    "/images/Filiere/HiResPhoto62_1 920-1 080.png",
+]

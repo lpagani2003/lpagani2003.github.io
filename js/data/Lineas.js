@@ -1,0 +1,18 @@
+var fotos=[
+    "/images/Lineas/HiResPhoto77_1 920-1 080.png",
+    "/images/Lineas/HiResPhoto78_1 920-1 080.png",
+    "/images/Lineas/HiResPhoto79_1 920-1 080.png",
+    "/images/Lineas/HiResPhoto80_1 920-1 080.png",
+    "/images/Lineas/HiResPhoto81_1 920-1 080.png",
+    "/images/Lineas/HiResPhoto82_1 920-1 080.png",
+    "/images/Lineas/HiResPhoto83_1 920-1 080.png",
+    "/images/Lineas/HiResPhoto84_1 920-1 080.png",
+    "/images/Lineas/HiResPhoto85_1 920-1 080.png",
+    "/images/Lineas/HiResPhoto86_1 920-1 080.png",
+    "/images/Lineas/HiResPhoto87_1 920-1 080.png",
+    "/images/Lineas/HiResPhoto88_1 920-1 080.png",
+    "/images/Lineas/HiResPhoto89_1 920-1 080.png",
+    "/images/Lineas/HiResPhoto90_1 920-1 080.png",
+    "/images/Lineas/HiResPhoto91_1 920-1 080.png",
+    "/images/Lineas/HiResPhoto92_1 920-1 080.png",
+]

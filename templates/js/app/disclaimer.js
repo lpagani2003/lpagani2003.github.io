@@ -1,1 +1,0 @@
-alert("Las marcas que aparecen aca estan solo con fines educativos y no comerciales")

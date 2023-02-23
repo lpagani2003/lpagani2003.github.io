@@ -1,0 +1,452 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media only screen and (max-width: 1439px) {
+    body {
+        background-image: url(/images/src/Texture-Formato-1920x4000-2.png);
+        overflow-x: hidden;
+
+    }
+
+    #s0 {
+        width: 100%;
+        height: 55vw;
+        src: url(/CSS/pirulen\ rg.otf);
+        text-align: center;
+        font-family: 'Pirulen';
+        margin: auto;
+        padding: 0;
+    }
+
+    #s1 {
+        background-color: rgb(255, 255, 255);
+        height: 10vh;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        border-bottom: 5px solid red;
+    }
+    .contentdiv{
+        height: 50vw;
+        width: 100%;
+    }
+    .contentdiv img {
+        height: 100%;
+        width: 100%;
+        background-size: 80%;
+        background-position-y: center;
+        background-position-x: center;
+    }
+    canvas{
+        height: 100%;
+        width: 100%;
+    }
+
+
+    h2 {
+        font-family: 'Pirulen';
+        font-size: 3vh;
+        margin: auto;
+    }
+    #s2 {
+        width: 100vw;
+    }
+    .grid-container {
+        width: 100vw;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        background-color: rgba(255, 255, 255, 0.424);
+    }
+
+    #aside {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        background-color: white;
+        font-family: 'Pirulen';
+        width: 100vw;
+        padding: 15px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    #aside h3{
+        grid-column: 1/3;
+        text-align: center;
+    }
+    #aside div{
+        position: relative;
+        left: 25%;
+        padding-top: 10px;
+    }
+
+    #tarjetas {
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 10px;
+        gap: 10px;
+        padding-bottom: 60px;
+    }
+
+    .tarjeta {
+        background-color: white;
+        width: 40%;
+        /* height: 50vh; */
+        text-align: center;
+        font-family: 'pirulen';
+        border-radius: 15%;
+        -webkit-border-radius: 15%;
+        -moz-border-radius: 15%;
+        -ms-border-radius: 15%;
+        -o-border-radius: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tarjeta>img {
+        max-height: 50%;
+        max-width: 100%;
+        padding-top: 10px;
+        margin: auto;
+    }
+    
+    h4 {
+        width: 90%;
+        padding-left: 20px;
+        font-size: 2.5vw;
+    }
+
+    .cuerpo a {
+        color: black;
+        font-size: 2vw;
+    }
+
+    a:link {
+        text-decoration: none;
+    }
+
+    a:visited {
+        text-decoration: none;
+    }
+    .cuerpo .btn{
+        width: 80%;
+        background-color: #ff0000;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        font-family: 'pirulen';
+    }
+    .cuerpo .btn:hover{
+        background-color: #ffffff;
+        border: 3px solid red;
+        color: rgb(0, 0, 0);
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        font-family: 'pirulen';
+    }
+}
+@media only screen and (min-width: 1440px) {
+    body {
+        background-image: url(/images/src/Texture-Formato-1920x4000-2.png);
+        overflow-x: hidden;
+
+    }
+    .contentdiv{
+        height: 75vh;
+        width: 100%;
+    }
+    .contentdiv img {
+        height: 75vh;
+        width: 100%;
+        background-size: 80%;
+        background-position-y: center;
+        background-position-x: center;
+    }
+
+    #s0 {
+        width: 100%;
+        height: 80vh;
+        src: url(/CSS/pirulen\ rg.otf);
+        text-align: center;
+        font-family: 'Pirulen';
+        margin: auto;
+        padding: 0;
+    }
+
+    #s1 {
+        background-color: rgb(255, 255, 255);
+        height: 10vh;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        border-bottom: 5px solid red;
+    }
+
+    h2 {
+        font-family: 'Pirulen';
+        font-size: 3vh;
+        margin: auto;
+    }
+    #s2 {
+        width: 100vw;
+    }
+    .grid-container {
+        width: 100vw;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin: auto;
+        background-color: rgba(255, 255, 255, 0.424);
+    }
+
+    #aside {
+        height: auto;
+        background-color: white;
+        font-family: 'Pirulen';
+        font-size: 1.25vw;
+        width: 15vw;
+        padding: 15px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    #aside div{
+        padding-top: 10px;
+    }
+
+    #tarjetas {
+        width: 85vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 10px;
+        gap: 5px;
+        padding-bottom: 60px;
+    }
+
+    .tarjeta {
+        background-color: white;
+        width: 25vw;
+        height: auto;
+        text-align: center;
+        font-family: 'pirulen';
+        border-radius: 15%;
+        -webkit-border-radius: 15%;
+        -moz-border-radius: 15%;
+        -ms-border-radius: 15%;
+        -o-border-radius: 15%;
+    }
+
+    .tarjeta img {
+        max-height: 40vh;
+        padding-top: 10px;
+        margin: auto;
+    }
+    .cuerpo{
+        padding-bottom: 15px;
+    }
+    .cuerpo h4 {
+        width: 100%;
+        font-size: 1.5vw;
+    }
+
+    .cuerpo a {
+        color: black;
+        font-size: 1vw;
+    }
+
+    a:link {
+        text-decoration: none;
+    }
+
+    a:visited {
+        text-decoration: none;
+    }
+    .cuerpo .btn{
+        background-color: #ff0000;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        font-family: 'pirulen';
+    }
+    .cuerpo .btn:hover{
+        background-color: #ffffff;
+        border: 3px solid red;
+        color: rgb(0, 0, 0);
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        font-family: 'pirulen';
+    }
+}
+@media only screen and (max-width: 760px) {
+    body {
+        background-image: url(/images/src/Texture-Formato-1920x4000-2.png);
+        overflow-x: hidden;
+
+    }
+
+    #s0 {
+        width: 100%;
+        height: 60vw;
+        src: url(/CSS/pirulen\ rg.otf);
+        text-align: center;
+        font-family: 'Pirulen';
+        margin: auto;
+        padding: 0;
+    }
+    .contentdiv{
+        height: 25vh;
+        width: 100%;
+    }
+    .contentdiv img {
+        height: 100%;
+        width: 100%;
+        background-size: 80%;
+        background-position-y: center;
+        background-position-x: center;
+    }
+    canvas{
+        height: 25vh;
+        width: 100%;
+    }
+
+    #s1 {
+        background-color: rgb(255, 255, 255);
+        height: 10vh;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        border-bottom: 5px solid red;
+    }
+
+    h2 {
+        font-family: 'Pirulen';
+        font-size: 3vh;
+        margin: auto;
+    }
+    #s2 {
+        width: 100vw;
+    }
+    .grid-container {
+        width: 100vw;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: auto;
+        background-color: rgba(255, 255, 255, 0.424);
+    }
+
+    #aside {
+        height: auto;
+        background-color: white;
+        font-family: 'Pirulen';
+        width: 100vw;
+        padding: 15px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    #tarjetas {
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 10px;
+        gap: 10px;
+        padding-bottom: 60px;
+    }
+
+    .tarjeta {
+        background-color: white;
+        width: 90%;
+        height: auto;
+        text-align: center;
+        font-family: 'pirulen';
+        border-radius: 15%;
+        -webkit-border-radius: 15%;
+        -moz-border-radius: 15%;
+        -ms-border-radius: 15%;
+        -o-border-radius: 15%;
+    }
+
+    .tarjeta>img {
+        max-height: 40vh;
+        padding-top: 10px;
+        margin: auto;
+    }
+    .cuerpo{
+        padding-bottom: 15px;
+    }
+    h4 {
+        width: 100%;
+        font-size: 4.5vw;
+    }
+
+    .cuerpo a {
+        color: black;
+        font-size: 5vw;
+    }
+
+    a:link {
+        text-decoration: none;
+    }
+
+    a:visited {
+        text-decoration: none;
+    }
+    .cuerpo .btn{
+        background-color: #ff0000;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        font-family: 'pirulen';
+    }
+    .cuerpo .btn:hover{
+        background-color: #ffffff;
+        border: 3px solid red;
+        color: rgb(0, 0, 0);
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        font-family: 'pirulen';
+    }
+}
