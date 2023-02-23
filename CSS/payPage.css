@@ -6,7 +6,7 @@
 
 @media only screen and (min-width: 1440px) {
     body {
-        background-image: url(/images/src/Texture-Formato-1920x4000-2.png);
+        background-image: url(/templates/images/src/Texture-Formato-1920x4000-2.png);
         overflow-x: hidden;
         font-family: 'pirulen';
 
@@ -213,7 +213,7 @@
 
 @media only screen and (max-width: 1439px) {
     body {
-        background-image: url(/images/src/Texture-Formato-1920x4000-2.png);
+        background-image: url(/templates/images/src/Texture-Formato-1920x4000-2.png);
         overflow-x: hidden;
         font-family: 'pirulen';
 

@@ -25,5 +25,5 @@ cad = `
     </ul>
   </div>
 </nav>
-<link rel="stylesheet" href="/CSS/apps/navcarshop.css">`
+<link rel="stylesheet" href="/templates/CSS/apps/navcarshop.css">`
 document.write(cad)

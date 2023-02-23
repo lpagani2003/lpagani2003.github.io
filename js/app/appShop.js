@@ -28,7 +28,7 @@ function filtro() {
     checkBoxccmp.addEventListener("change", () => toggleVisibility(checkBoxccmp, divs.cmp));
 }
 
-  let url = "/js/data/prodList.json"
+  let url = "/templates/js/data/prodList.json"
   var datos = [];
   
   fetch(url)

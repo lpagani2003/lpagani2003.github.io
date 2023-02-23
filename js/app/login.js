@@ -10,11 +10,11 @@ loginButton.addEventListener("click", (e) => {
 
     if (username === "admin" && password === "1234") {
         alert("Inicia como administrador");
-        location.href = "/admin/admin1.html";
+        location.href = "/templates/admin/admin1.html";
     } else {
         if (username === "invitado" && password === "1234") {
             alert("Inicia como invitado");
-            location.href = "/admin/admin2.html";
+            location.href = "/templates/admin/admin2.html";
         } else {
             alert("para iniciar como usuario invitado(user:invitado password:1234)")
         }
@@ -22,5 +22,5 @@ loginButton.addEventListener("click", (e) => {
 });
 invitado.addEventListener("click", (e) =>{
     e.preventDefault();
-    location.href = "/admin/admin2.html";
+    location.href = "/templates/admin/admin2.html";
 })

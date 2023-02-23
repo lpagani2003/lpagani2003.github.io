@@ -5,7 +5,7 @@ let cars;
 
 async function loadJson() {
   try {
-    const response = await fetch("/js/data/dataspec.json");
+    const response = await fetch("/templates/js/data/dataspec.json");
     cars = await response.json();
   } catch (err) {
     console.error("Error:", err.message);
