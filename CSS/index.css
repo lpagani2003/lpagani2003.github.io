@@ -5,7 +5,7 @@
 }
 @media only screen and (min-width: 1440px) {
 body{
-    background-image: url(/templates/images/src/Sin\ título-1.png);
+    background-image: url(/images/src/Sin\ título-1.png);
     background-position-x: center;
     width: 100%;
     height: 100%;
@@ -35,7 +35,7 @@ body{
 }
 @media only screen and (max-width: 1440px) {
     body{
-        background-image: url(/templates/images/src/Texture-Formato-1920x4000-2.png);
+        background-image: url(/images/src/Texture-Formato-1920x4000-2.png);
         background-size: 100%;
         width: 100%;
         height: 100%;
@@ -43,7 +43,7 @@ body{
         overflow-x: hidden;
     }
     #s0{
-        background-image: url(/templates/images/src/Sin\ título-1.png);
+        background-image: url(/images/src/Sin\ título-1.png);
         background-size: 125%;
         background-repeat: no-repeat;
         background-position-y: 50%;
@@ -71,7 +71,7 @@ body{
 }
 @media only screen and (max-width: 600px) {
     body{
-        background-image: url(/templates/images/src/Texture-Formato-1920x4000-2.png);
+        background-image: url(/images/src/Texture-Formato-1920x4000-2.png);
         background-size: 110%;
         width: 100%;
         height: 100%;

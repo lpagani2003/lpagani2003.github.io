@@ -9,7 +9,7 @@ var carrito = [];
 
 
 function loadJson() {
-    fetch('/templates/js/data/prodList.json')
+    fetch('/js/data/prodList.json')
         .then(response => response.json())
         .then(data => {
             prod = data;
@@ -43,7 +43,7 @@ function continuarCompra() {
     if (carrito.length === 0) {
         // agregar alerta
     } else {
-        location.href = "/templates/shop-html/payPage.html"
+        location.href = "/shop-html/payPage.html"
         procesarPedido()
     }
 };
@@ -203,7 +203,7 @@ function enviarPedido(e) {
     alert("Compra realizada correctamente")
     setTimeout(() => {
         
-        location.href = "/templates/shop.html"
+        location.href = "/shop.html"
         localStorage.removeItem("carrito");
         carrito = [];
         mostrarCarrito();

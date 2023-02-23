@@ -1,7 +1,7 @@
 async function postulante(id) {
     var fc = '';
   try {
-    const response = await fetch("/templates/js/data/datapuesto.json");
+    const response = await fetch("/js/data/datapuesto.json");
     puestos = await response.json();
   } catch (err) {
     console.error("Error:", err.message);
@@ -16,7 +16,7 @@ async function postulante(id) {
       fc += `
         <article class="clasif" id="s5-${item.id}">
           <div class="clasif-img">
-            <img src="/templates/images/src/png-transparent-mountview-academy-of-theatre-arts-silhouette-person-silhouette-animals-head-silhouette.png"
+            <img src="/images/src/png-transparent-mountview-academy-of-theatre-arts-silhouette-person-silhouette-animals-head-silhouette.png"
             alt="perfil">
           </div>
           <div class="clasif-info">
@@ -99,7 +99,7 @@ function guardar2() {
         .then(function () {
             console.log("creado")
             alert("Grabado")
-            window.location.href = "/templates/index.html";  //NUEVO  
+            window.location.href = "/index.html";  //NUEVO  
         })
         .catch(err => {
             //this.errored = true

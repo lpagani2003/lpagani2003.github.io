@@ -30,7 +30,7 @@ function guardar1() {
         .then(function () {
             console.log("creado")
             alert("Grabado")
-            window.location.href = "/templates/index.html";  //NUEVO  
+            window.location.href = "/index.html";  //NUEVO  
         })
         .catch(err => {
             //this.errored = true

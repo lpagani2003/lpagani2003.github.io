@@ -17,7 +17,7 @@
         width: 110vw;
         height: 15vh;
         background-color: rgba(184, 184, 184, 0.583);
-        src: url(/templates/CSS/pirulen\ rg.otf);
+        src: url(/CSS/pirulen\ rg.otf);
         text-align: center;
         font-family: 'Pirulen';
         margin: auto;
@@ -143,7 +143,7 @@
         width: 110vw;
         height: 15vh;
         background-color: rgba(184, 184, 184, 0.583);
-        src: url(/templates/CSS/pirulen\ rg.otf);
+        src: url(/CSS/pirulen\ rg.otf);
         text-align: center;
         font-family: 'Pirulen';
         margin: auto;
@@ -270,7 +270,7 @@
         width: 110vw;
         height: 20vh;
         background-color: rgba(184, 184, 184, 0.583);
-        src: url(/templates/CSS/pirulen\ rg.otf);
+        src: url(/CSS/pirulen\ rg.otf);
         text-align: center;
         font-family: 'Pirulen';
         margin: auto;

@@ -5,7 +5,7 @@ let productos;
 
 async function loadJson() {
     try {
-        const response = await fetch("/templates/js/data/prodList.json");
+        const response = await fetch("/js/data/prodList.json");
         productos = await response.json();
         console.log(productos);
     } catch (err) {
@@ -20,7 +20,7 @@ async function loadJson() {
         <div class="grid-container">
         <div class="grid-item" id="dviewer">
             
-            <link rel="stylesheet" href="/templates/CSS/apps/3d.css">
+            <link rel="stylesheet" href="/CSS/apps/3d.css">
             <!-- use unique asset to ensure lazy loading -->
             <model-viewer id="lazy-load" camera-controls touch-action="pan-y" reveal="manual" src="${item.model3d}">    
                 <div id="button-load" slot="poster">Load 3D Model</div>
