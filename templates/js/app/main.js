@@ -6,7 +6,7 @@ cad=`
                 <span></span>
                 <span></span>
                 <ul id="menu">
-                    <a href="/templates/Index.html"><li>Inicio</li></a>
+                    <a href="/templates/index.html"><li>Inicio</li></a>
                     <a href="/templates/carshow.html"><li>Modelos</li></a>
                     <a href="/templates/RRHH.html"><li>Recursos Humanos</li></a>
                     <a href="/templates/Shop.html"><li>Shop</li></a>
