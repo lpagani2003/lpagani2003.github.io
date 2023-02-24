@@ -66,15 +66,15 @@ const mostrarCarrito = () => {
     if (modalBody) {
         modalBody.innerHTML = `
             <tr id="first-row">
-                <th>Producto</th>
-                <th>Cantidad</th>
-                <th>Precio</th>
+                <th class="producto1">Producto</th>
+                <th class="numeros1">Cant.</th>
+                <th class="numeros1">Precio</th>
             </tr>`
         carrito.forEach((prod) => {
             const { id, name, type, price, image, cantidad } = prod
             modalBody.innerHTML += `
             <tr>
-                <th class="producto">
+                <th class="producto producto1">
                     <div class="img-carrito1">
                         <img class="img-carrito" src="${image}" />
                     </div>
@@ -84,10 +84,10 @@ const mostrarCarrito = () => {
                         <a href="" onclick="eliminarProducto(event,${id})">Quitar</a>
                     </div>
                 </th>
-                <th class="numeros">
+                <th class="numeros numeros1">
                     <p> ${cantidad}</p>
                 </th>
-                <th class="numeros">
+                <th class="numeros numeros1">
                     <p>$ ${price * cantidad}</p>
                 </th>
             </tr>

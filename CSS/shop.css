@@ -75,15 +75,11 @@
     }
 
     #aside {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
         background-color: white;
         font-family: 'pirulenregular';
-
         width: 100vw;
-        padding: 15px;
-        padding-bottom: 10px;
-        padding-top: 10px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     #aside h3 {
@@ -246,12 +242,8 @@
         height: auto;
         background-color: white;
         font-family: 'pirulenregular';
-
         font-size: 1.25vw;
         width: 15vw;
-        padding: 15px;
-        padding-bottom: 10px;
-        padding-top: 10px;
     }
 
     #aside div {
@@ -352,7 +344,7 @@
 
     #s0 {
         width: 100%;
-        height: 60vw;
+        height: 65vw;
         text-align: center;
         font-family: 'pirulenregular';
 
@@ -361,7 +353,7 @@
     }
 
     .contentdiv {
-        height: 25vh;
+        height: 50vw;
         width: 100%;
     }
 
@@ -374,7 +366,6 @@
     }
 
     canvas {
-        height: 25vh;
         width: 100%;
     }
 
@@ -410,11 +401,12 @@
         height: auto;
         background-color: white;
         font-family: 'pirulenregular';
-
         width: 100vw;
-        padding: 15px;
         padding-bottom: 10px;
         padding-top: 10px;
+        margin: auto;
+        display: block;
+       
     }
 
     #tarjetas {

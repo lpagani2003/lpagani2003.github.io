@@ -13,15 +13,17 @@ cad = `
         
        </table>
       </div>
-      <h6>*total sin impuestos argenitinos</h6>
-      <div id="total">
-        <h1 id="ptotal">Precio total*: $</h1>
-        <h1 id="precioTotal"></h1>
+      <div id="extras">
+        <h6>*total sin impuestos argenitinos</h6>
+        <div id="total">
+          <h1 id="ptotal">Precio total*: $</h1>
+          <h1 id="precioTotal"></h1>
+        </div>
+        <div id="buttons">
+          <button id="vaciarCarrito" onclick="vaciarCarrito()">Vaciar</button>
+          <button id="continuarCompra" onclick="continuarCompra()">Continuar compra</button>
+        </div>
       </div>
-      <div id="buttons">
-      <button id="vaciarCarrito" onclick="vaciarCarrito()">Vaciar</button>
-      <button id="continuarCompra" onclick="continuarCompra()">Continuar compra</button>
-    </div>
     </ul>
   </div>
 </nav>

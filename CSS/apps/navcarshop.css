@@ -99,7 +99,7 @@
     margin: -100px 0 0 0;
     padding-top: 125px;
     right: -100px;
-    height: 110vh;
+    height: 102vh;
     background: #ededed;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
@@ -343,11 +343,11 @@
  */
   #menu1 {
     position: fixed;
-    width: 80vw;
+    width: 100vw;
     margin: -100px 0 0 0;
     padding-top: 125px;
-    right: -100px;
-    height: 110vh;
+ left: 0;
+    height: 102vh;
     background: #ededed;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
@@ -367,41 +367,15 @@
     opacity: 1;
   }
 
-  h6 {
-    position: absolute;
-    bottom: 8%;
-    padding-left: 10px;
-    font-family: 'pirulenregular';
-    font-size: 0.75vw;
-  }
-
-  #total {
-    width: 100%;
-    height: 100px;
-    position: absolute;
-    bottom: 11vh;
-    border-top: 5px solid red;
-  }
-
-  #ptotal {
-    padding-left: 10px;
-    font-family: 'pirulenregular';
-  }
-
-  #precioTotal {
-    position: relative;
-    font-family: 'pirulenregular';
-    top: -30%;
-    left: 65%;
-  }
-
   #scrol {
-    height: 75%;
+    max-height: 75%;
+    max-width: 100%;
     overflow-y: scroll;
+    overflow-x: hidden;
   }
 
   .modal-body {
-    width: 85%;
+    width: 100%;
     border-collapse: collapse;
     text-align: left;
 
@@ -410,7 +384,7 @@
   #first-row {
     background-color: black;
     color: white;
-    width: 110%;
+    width: 100%;
     font-family: 'pirulenregular';
   }
 
@@ -420,28 +394,27 @@
     padding-left: 10px;
   }
 
-  #first-row th:first-child {
-    width: 0vw;
-  }
   .producto {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     font-family: 'pirulenregular';
-    width: 30vw;
     border-bottom: 2px solid black;
     padding-top: 10px;
-    padding-left: 5px;
+  }
+  .producto1{
+    width: 50%;
   }
 
   .info-producto {
-    grid-column: 2/5;
+    grid-column: 2/4;
     margin: auto;
     margin-left: 0;
-    font-size: 1.5vw;
-    width: 90%;
+    font-size: 2vw;
+    width: 100%;
+    padding-left: 10px;
   }
   .info-producto p {
-    width: 100%;
+    width: 90%;
   }
 
   .info-producto a {
@@ -457,17 +430,47 @@
 
   .numeros {
     font-family: 'pirulenregular';
-    font-size: 1.5vw;
-    margin: 0 auto;
-    padding-left: 25px;
+    font-size: 2vw;
+    padding-left: 10px;
+  }
+  #extras{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 5px solid red;
+  }
+  
+  h6 {
+    position: absolute;
+    bottom: 50%;
+    padding-left: 10px;
+    font-family: 'pirulenregular';
+    font-size: 0.75vw;
+    display: none;
+  }
+
+  #total {
+    width: 100%;
+  }
+
+  #ptotal {
+    padding-left: 10px;
+    font-family: 'pirulenregular';
+    max-width: 50%;
+  }
+
+  #precioTotal {
+    position: absolute;
+    font-family: 'pirulenregular';
+    right: 2%;
+    bottom: 70%;
   }
 
   #buttons {
-    position: absolute;
-    bottom: 10%;
-    right: 25%;
     align-items: center;
     display: flex;
+    justify-content: center;
+    margin: auto;
   }
 
   #buttons button {
@@ -494,7 +497,7 @@
   }
 
   .no-hay-nada {
-    font-size: 2vw;
+    font-size: 3vh;
     font-family: 'pirulenregular';
     margin: auto;
     padding-left: 15px;
@@ -594,7 +597,7 @@
  */
   #menu1 {
     position: fixed;
-    width: 100%;
+    width: 100vw;
     margin: -100px 0 0 0;
     padding-top: 125px;
     left: 0;
@@ -620,39 +623,11 @@
     opacity: 1;
   }
 
-  h6 {
-    position: absolute;
-    bottom: 50%;
-    padding-left: 10px;
-    font-family: 'pirulenregular';
-    font-size: 0.75vw;
-    display: none;
-  }
-
-  #total {
-    width: 100%;
-    height: 15vh;
-    position: absolute;
-    bottom: 11vh;
-    border-top: 5px solid red;
-  }
-
-  #ptotal {
-    padding-left: 10px;
-    font-family: 'pirulenregular';
-  }
-
-  #precioTotal {
-    position: relative;
-    font-family: 'pirulenregular';
-    top: -3vh;
-    left: 65%;
-  }
-
   #scrol {
-    height: 65%;
+    max-height: 65%;
+    max-width: 100%;
     overflow-y: scroll;
-    overflow-x: hidden;
+    overflow-x: scroll;
   }
 
   .modal-body {
@@ -665,35 +640,33 @@
   #first-row {
     background-color: black;
     color: white;
-    width: 110vw;
+    width: 100vw;
     font-family: 'pirulenregular';
   }
 
   #first-row th {
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 10px;
   }
 
-  #first-row th:first-child {
-    width: 20vw;
-  }
   .producto {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     font-family: 'pirulenregular';
-    width: 50vw;
     border-bottom: 2px solid black;
     padding-top: 10px;
-    padding-left: 5px;
+  }
+  .producto1{
+    width: 100%;
   }
 
   .info-producto {
-    grid-column: 2/5;
+    grid-column: 1/2;
     margin: auto;
     margin-left: 0;
-    font-size: 2.5vw;
-    width: 90%;
+    font-size: 4vw;
+    width: 100%;
+    padding-left: 10px;
   }
   .info-producto p {
     width: 100%;
@@ -712,17 +685,54 @@
 
   .numeros {
     font-family: 'pirulenregular';
-    margin: 0 auto;
-    padding-left: 25px;
-    font-size: 3vw;
+    font-size: 4vw;
+    padding-left: 10px;
+  }
+  .numeros1{
+    width: 25%;
+  }
+  #extras{
+    position: absolute;
+    bottom: 15%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top: 5px solid red;
+    width: 100%;
+  }
+  
+  h6 {
+    position: absolute;
+    bottom: 50%;
+    padding-left: 10px;
+    font-family: 'pirulenregular';
+    font-size: 0.75vw;
+    display: none;
   }
 
-  #buttons {
+  #total {
+    width: 100%;
+  }
+
+  #ptotal {
+    padding-left: 10px;
+    font-family: 'pirulenregular';
+    max-width: 50%;
+  }
+
+  #precioTotal {
     position: absolute;
-    bottom: 10%;
-    right: 25%;
+    font-family: 'pirulenregular';
+    right: 2%;
+    bottom: 20%;
+  }
+
+ 
+  #buttons {
     align-items: center;
     display: flex;
+    justify-content: center;
+    position: absolute;
+    margin: auto;
   }
 
   #buttons button {
@@ -747,6 +757,7 @@
     background-color: #ff1100;
     color: white;
   }
+
   .no-hay-nada {
     font-size: 3vh;
     font-family: 'pirulenregular';

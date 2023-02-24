@@ -4,27 +4,107 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: rgb(19, 25, 31);
-    overflow-x: hidden;
+@font-face {
+    font-family: 'pirulenregular';
+    src: url(/CSS/recursos/pirulen_rg-webfont.woff);
 }
-#s0 {
-    background-color: white;
+
+@media only screen and (max-width: 610px) {
+    body {
+        background-color: rgb(19, 25, 31);
+        overflow-x: hidden;
+    }
+
+    #s0 {
+        background-color: white;
+    }
+
+    #s0 .grid-container1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 25px 0 25px 0;
+        margin: auto;
+        font-family: 'pirulenregular';
+        gap: 20px;
+    }
+
+    #s0 .grid-container1 .grid-item1 {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       align-items: center;
+       padding-left: 10px;
+    }
+   
+
+    #s0 .grid-container1 .grid-item1 label {
+        cursor: pointer;
+        width: 90%;
+        margin: auto;
+    }
+
+    .container {
+        margin-top: 25px;
+        background-color: rgba(255, 255, 255, 0.696);
+    }
+
+    #app1,
+    #app2 {
+        overflow-x: scroll;
+    }
+
+    #txtAnotaciones{
+        width: 100%;
+    }
 }
-#s0 .grid-container1{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 25px 0 25px 0;
-    margin: auto;
-    font-family: 'pirulen';
-}
-#s0 .grid-container1 .grid-item1{
-    margin: auto;
-}
-#s0 .grid-container1 .grid-item1 label{
-    cursor: pointer;
-}
-.container{
-    margin-top: 25px;
-    background-color: rgba(255, 255, 255, 0.696);
+
+@media only screen and (min-width: 611px) {
+    body {
+        background-color: rgb(19, 25, 31);
+        overflow-x: hidden;
+    }
+
+    #s0 {
+        background-color: white;
+    }
+
+    #s0 .grid-container1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 25px 0 25px 0;
+        margin: auto;
+        font-family: 'pirulenregular';
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #s0 .grid-container1 .grid-item1 {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       align-items: center;
+       padding-left: 60px;
+       margin: auto;
+    }
+   
+
+    #s0 .grid-container1 .grid-item1 label {
+        cursor: pointer;
+        width: 90%;
+        margin: auto;
+    }
+
+    .container {
+        margin-top: 25px;
+        background-color: rgba(255, 255, 255, 0.696);
+    }
+
+    #app1,
+    #app2 {
+        overflow-x: scroll;
+    }
+    #txtAnotaciones{
+        width: 100%;
+    }
 }
