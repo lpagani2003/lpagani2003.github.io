@@ -116,7 +116,7 @@
   #menu {
     position: absolute;
     width: 20vw;
-    height: 100vh;
+    height: 105vh;
     overflow-y: hidden;
     margin: -100px 0 0 -50px;
     padding: 50px;
@@ -288,7 +288,7 @@
   #menu {
     position: absolute;
     width: 35vw;
-    height: 100vh;
+    height: 105vh;
     overflow-y: hidden;
     margin: -100px 0 0 -50px;
     padding: 50px;
