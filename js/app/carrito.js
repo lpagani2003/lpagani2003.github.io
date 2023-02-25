@@ -149,12 +149,12 @@ function togglePopup(id) {
     }
 };
 function enviarPedido(e) {
-    e.preventDefault()
-    const cliente = document.querySelector("#persona").value
-    const correo = document.querySelector("#correo").value
+    e.preventDefault();
+    const cliente = document.querySelector("#persona").value;
+    const correo = document.querySelector("#correo").value;
 
     if (correo === '' || cliente === '') {
-        // alerta
+        alert("Complete los datos por favor");
     } else {
         let messageInput = document.querySelector("#message");
         let mensaje = "Mi pedido:\n";
@@ -177,8 +177,6 @@ function enviarPedido(e) {
 
         const btn = document.getElementById('button');
 
-
-
         btn.value = 'Enviando...';
 
         const serviceID = 'default_service';
@@ -188,28 +186,18 @@ function enviarPedido(e) {
             .then(() => {
                 btn.value = 'Finalizar compra';
                 alert('Enviado!');
+                setTimeout(() => {
+                    formulario.reset()
+                }, 3000);
+                location.href = "/shop.html";
+                localStorage.removeItem("carrito");
+                carrito = [];
+                mostrarCarrito();
             }, (err) => {
                 btn.value = 'Finalizar compra';
                 alert(JSON.stringify(err));
             });
     };
-
-    console.log("pasaste");
-
-    setTimeout(() => {
-        formulario.reset()
-    }, 3000)
-
-    alert("Compra realizada correctamente")
-    setTimeout(() => {
-        
-        location.href = "/shop.html"
-        localStorage.removeItem("carrito");
-        carrito = [];
-        mostrarCarrito();
-        
-    }, 3000)
-    
 }
 
 

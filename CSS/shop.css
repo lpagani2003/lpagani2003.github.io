@@ -232,6 +232,7 @@ html, body {
 
     #s2 {
         width: 100vw;
+        padding-bottom: 15px;
     }
 
     .grid-container {
@@ -248,6 +249,7 @@ html, body {
         font-family: 'pirulenregular';
         font-size: 1.25vw;
         width: 15vw;
+        padding-left: 15px;
     }
 
     #aside div {
